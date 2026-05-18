@@ -3,7 +3,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'The Jos Music Hub',
-  description: 'Discover and stream music from Jos'
+  description: 'Discover and stream music from Jos',
+  icons: {
+    icon: '/logo.png'
+  }
 }
 
 export default function RootLayout({
@@ -13,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-black text-white">
+        {children}
+      </body>
     </html>
   )
 }
