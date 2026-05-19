@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'The Jos Music Hub',
   description: 'Discover and stream music from Jos',
   icons: {
-    icon: '/logo.PNG'
+    icon: '/logo.png'
   }
 }
 
